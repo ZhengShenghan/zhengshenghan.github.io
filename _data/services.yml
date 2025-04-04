@@ -1,0 +1,14 @@
+- category: "Artifact Evaluation Committee"
+  items:
+    - "NDSS: 2025"
+    - "EuroSys: 2025"
+    - "Usenix: 2025"
+- category: "Registered Reviewers"
+  items:
+    - "EAI SecureComm: 2024"
+    - "IEEE T-IFS: 2024"
+    - "Computer Networks: 2024, 2025"
+- category: "External Reviewers"
+  items:  
+    - "CCS: 2024"
+    - "NDSS: 2025"

@@ -17,6 +17,9 @@
     <link rel="stylesheet" href="{{ '/assets/css/global.css' | relative_url }}">
 </head>
 <body class="bg-light" {{ page.body_attr }}>
+    <button id="dark-mode-toggle" style="position: fixed; top: 10px; right: 10px; z-index: 9999;">
+        Dark Mode
+    </button>
     {% include navbar.html %}
     <div class="{% if page.container_class %}{{ page.container_class }}{% else %}container-lg{% endif %}">
         {{content}}
@@ -44,6 +47,28 @@
             });
         });
     </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+          const toggleButton = document.getElementById('dark-mode-toggle');
+          if (!toggleButton) {
+            console.error('Dark mode toggle button not found');
+            return;
+          }
+          console.log("Dark mode toggle found:", toggleButton);
+          toggleButton.addEventListener('click', () => {
+            console.log("Dark mode toggle clicked");
+            document.body.classList.toggle('dark-mode');
+            if (document.body.classList.contains('dark-mode')) {
+              localStorage.setItem('darkMode', 'true');
+            } else {
+              localStorage.setItem('darkMode', 'false');
+            }
+          });
+          if (localStorage.getItem('darkMode') === 'true') {
+            document.body.classList.add('dark-mode');
+          }
+        });
+      </script>
     <script src="{{ '/assets/js/common.js' | relative_url }}"></script>
     <script src="{{ '/assets/js/bubble_visual_hash.js' | relative_url }}"></script>
 </body>

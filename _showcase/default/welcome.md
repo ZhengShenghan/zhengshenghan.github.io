@@ -5,19 +5,21 @@ date: 2024-01-12 00:01:00 +0800
 ---
 
 <div class="p-4">
-    <h2>Welcome to Showcase!</h2>
+    <h2>Welcome!</h2>
     <hr />
     <p>
-        <code>Showcase</code> is a page where you can show off almost anything you want. It can be the photo of your pets, your favorite books, your favorite projects, or anything else you want to show to the world.
+        Below are some <code>fun facts</code> about me.
     </p>
     <p>
-        You can create a new showcase item by creating a new file in the <code>_showcase</code> folder. It gives you the highest flexibility to customize the item using any HTML code.
+        I used to be a table tennis pro. My best achievements are 7th in the National competition in China and 1st in Zhejiang province. I also won 1st place in the group competition with my teammates in A-league held in Chongqing. 
+        I have won multiple awards in the US.
+        I'm a member of CalTT at UC Berkeley and UCR table tennis club.
     </p>
     <p>
-        Cards are ordered by the <code>date</code> field in the front matter in descending order. The <code>width</code> field is used to determine the width of the card, ranging from 1 to 12.
-        Layout is done by the <a href="https://masonry.desandro.com/" target="_blank">Masonry</a> library.
+        I'm a music lover. I like all things related to music. I listen to a wide range of music with different standards. I used to play flute and hulusi. I'm learning guitar right now. I'm also a big fan of street dance and prefer popping.
+        <!-- Layout is done by the <a href="https://masonry.desandro.com/" target="_blank">Masonry</a> library. -->
     </p>
     <p>
-        For a tidy layout, it is recommended to set the width of the cards to be either multiple of 3 or multiple of 4 for all cards, except for small badges that do not take up much space (width=1).
+        I'm a fan of math. I used to participate in mathematical olympiads. My favorite field is number theory.
     </p>
 </div>
