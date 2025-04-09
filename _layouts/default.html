@@ -17,9 +17,9 @@
     <link rel="stylesheet" href="{{ '/assets/css/global.css' | relative_url }}">
 </head>
 <body class="bg-light" {{ page.body_attr }}>
-    <button id="dark-mode-toggle" style="position: fixed; top: 10px; right: 10px; z-index: 9999;">
+    <!-- <button id="dark-mode-toggle" style="position: fixed; top: 10px; right: 10px; z-index: 9999;">
         Dark Mode
-    </button>
+    </button> -->
     {% include navbar.html %}
     <div class="{% if page.container_class %}{{ page.container_class }}{% else %}container-lg{% endif %}">
         {{content}}
