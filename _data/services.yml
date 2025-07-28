@@ -1,9 +1,10 @@
 - category: "Artifact Evaluation Committee"
   items:
-    - "NDSS: 2025"
+    - "NDSS: 2025, 2026"
     - "EuroSys: 2025"
     - "Usenix: 2025"
     - "SLE: 2025"
+    - "CCS: 2025"
 - category: "Registered Reviewers"
   items:
     - "EAI SecureComm: 2024"
