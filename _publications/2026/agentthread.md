@@ -6,7 +6,7 @@ pub:            "arXiv preprint"
 pub_date:       "2026"
 
 abstract: >-
-  AI agent protocols define how agents use tools, delegate work, and coordinate across software systems, but their security requirements remain incomplete and inconsistently enforced across deployments. We present AgentThread, a source-linked framework for security assurance analysis of agent protocols, from specification text to running SDKs, contributing a layered security scope, protocol-derived checks formalized as TLA+ invariants, and a two-phase checker that compiles protocol specifications into model-checkable models and replays executable counterexamples against real SDKs. Across five emerging agent protocols, AgentThread identifies 35 specification-level findings, supports them with 80 implementation tests against production SDKs and reference servers, and finds 30 additional failures that emerge only under protocol composition.
+  AI agent protocols define how agents use tools, delegate work, and coordinate across software systems, but their security requirements remain incomplete and inconsistently enforced. We present AgentThread, a source-linked framework that analyzes agent protocols from specification text to running SDKs, formalizing protocol-derived checks as TLA+ invariants and replaying executable counterexamples against real SDKs. Across five emerging protocols it identifies 35 specification-level findings and 30 further failures that emerge only under protocol composition.
 cover:          /assets/images/covers/Formal_1.png
 authors:
   - Shenghan Zheng

@@ -6,7 +6,7 @@ pub:            "arXiv preprint"
 pub_date:       "2026"
 
 abstract: >-
-  Agent Skills are structured packages of procedural knowledge that augment large language model (LLM) agents at inference time. Despite rapid adoption, there is no standard way to measure whether they actually help. We present SkillsBench, a benchmark whose current inventory contains 87 tasks across 8 domains paired with curated Skills and deterministic verifiers. Curated Skills raise the average pass rate from 33.9% to 50.5% (+16.6 percentage points) across 18 model-harness configurations. Focused Skills with at most three modules outperform larger or exhaustive bundles, and smaller models with Skills can match larger models without them.
+  Agent Skills are structured packages of procedural knowledge that augment LLM agents at inference time. Despite rapid adoption, there is no standard way to measure whether they actually help. We present SkillsBench, a benchmark of 87 tasks across 8 domains paired with curated Skills and deterministic verifiers. Curated Skills raise the average pass rate from 33.9% to 50.5% across 18 model-harness configurations, and focused Skills with at most three modules outperform larger, exhaustive bundles.
 cover:          /assets/images/covers/skills_1.png
 authors:
   - Xiangyi Li

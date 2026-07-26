@@ -6,7 +6,7 @@ pub:            "Conference on Language Modeling (COLM)"
 pub_date:       "2026"
 
 abstract: >-
-  LLM agents are increasingly embedded in productivity and enterprise domains, but evaluating them on live services risks irreversible errors and lacks reproducibility. We introduce smolclaws, a framework providing five high-fidelity simulated services (Gmail, Google Calendar, Google Docs, Google Drive, and Slack) with full state management and deterministic replay, together with 40+ structured tasks spanning multi-step workflows, cross-service coordination, and safety-critical scenarios. Across 1,500+ evaluation trials, frontier agents solve only 30% of tasks, with failures dominated by incorrect API usage and safety violations; systematic trajectory analysis and skill refinement yield +35% improvement in average reward, demonstrating that skill quality is a practical proxy for model improvement.
+  Evaluating LLM agents on live productivity services risks irreversible errors and lacks reproducibility. We introduce smolclaws, a framework of five high-fidelity simulated services (Gmail, Google Calendar, Google Docs, Google Drive, and Slack) with full state management and deterministic replay, paired with 40+ tasks spanning multi-step workflows, cross-service coordination, and safety-critical scenarios. Across 1,500+ trials frontier agents solve only 30% of tasks, while trajectory-driven skill refinement yields +35% average reward.
 cover:          /assets/images/covers/claws_1.png
 authors:
   - Xiangyi Li
