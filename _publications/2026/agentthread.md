@@ -16,3 +16,4 @@ authors:
   - Christophe Hauser
 links:
   Paper: https://arxiv.org/pdf/2606.28690
+---
