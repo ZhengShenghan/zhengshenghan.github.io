@@ -23,7 +23,7 @@ linkedin: shenghan-zheng-165513245
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    Shenghan Zheng is a Ph.D. student in the <a href="https://web.cs.dartmouth.edu/" target="_blank">Department of Computer Science</a> of <a href="https://home.dartmouth.edu/" target="_blank">Dartmouth College</a> with focus in computer security. He is fortunately advised by Prof. <a href="https://kereoz.github.io/" target="_blank">Christophe Hauser</a>. His research interests include network security, system security, software analysis and verification. Specifically, his research incorporates multiple program analysis methods(e.g., fuzzing, symbolic execution, and reverse engineering) in combination with machine learning techniques(e.g., GNN and Large Language Model).
+    Shenghan Zheng is a Ph.D. student in the <a href="https://web.cs.dartmouth.edu/" target="_blank">Department of Computer Science</a> of <a href="https://home.dartmouth.edu/" target="_blank">Dartmouth College</a> with focus in computer security. He is fortunately advised by Prof. <a href="https://kereoz.github.io/" target="_blank">Christophe Hauser</a>. His current research interests are the <strong>security of agent protocols and agentic systems</strong>, <strong>software testing and verification</strong>, and <strong>agent benchmarks</strong>. He also works on network security and system security, incorporating multiple program analysis methods(e.g., fuzzing, symbolic execution, and reverse engineering) in combination with machine learning techniques(e.g., GNN and Large Language Model).
   </p>
   <p>
     He earned his master's degree at UC Riverside where he was a member of UCR Security Lab. Previously, he was a member of DSP Lab at UC Irvine.
