@@ -43,6 +43,33 @@ h1, h2, h3, h4, h5, h6,
     min-height: 100px;
 }
 
+/* Publication titles sit between Bootstrap's h5 (1.25rem) and body text. */
+.publication-title {
+    font-size: 1.05rem;
+}
+
+/* Collapsible abstracts. The collapse class is applied by JS
+   (assets/js/common.js) rather than being on by default, so the abstract stays
+   readable when JavaScript is unavailable. */
+.abstract-text.is-collapsed {
+    display: none;
+}
+
+.abstract-toggle {
+    display: inline-block;
+    margin-top: 0.1rem;
+    padding: 0;
+    border: none;
+    background: none;
+    color: #007bff;
+    cursor: pointer;
+}
+
+.abstract-toggle:hover,
+.abstract-toggle:focus {
+    text-decoration: underline;
+}
+
 img.lazy {
     background-image: url('images/loading.gif');
     background-repeat: no-repeat;
